@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-  <style>
-    .custom-table {
-      border-collapse: separate;
-      border-spacing: 0 8px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-table {
+            border-collapse: separate;
+            border-spacing: 0 8px;
+            width: 100%;
+            max-width: 800px; /* Adjust this value as needed */
+            margin: 0 auto;
+        }
 
-    .custom-table th, .custom-table td {
-      padding: 8px;
-      text-align: center;
-    }
+        .custom-table th, .custom-table td {
+            padding: 8px;
+            text-align: center;
+        }
 
-    .custom-table tr:nth-child(even) {
-      background-color: #E6F2FF; /* Light Blue */
-    }
+        .custom-table tr:nth-child(even) {
+            background-color: #E6F2FF;
+        }
 
-    .custom-table tr:nth-child(odd) {
-      background-color: #CCEDFF; /* Lighter Blue */
-    }
+        .custom-table tr:nth-child(odd) {
+            background-color: #CCEDFF;
+        }
 
-  </style>
+    </style>
 </head>
 <body class="bg-gray-100 p-6">
 
 <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-  <table class="w-full custom-table">
-    <tr>
-      <th>Date</th>
-      <th>Subject</th>
-    </tr>
-    <tr>
-      <td>22 Nov (Wednesday)</td>
-      <td>Discrete Math</td>
-    </tr>
-    <tr>
-      <td>23 Nov (Thursday)</td>
-      <td>Data Structures and Algorithms</td>
-    </tr>
-    <tr>
-      <td>24 Nov (Friday)</td>
-      <td>DBMS</td>
-    </tr>
-    <tr>
-      <td>25 Nov (Saturday)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>26 Nov (Sunday)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>27 Nov (Monday)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>28 Nov (Tuesday)</td>
-      <td>MATH</td>
-    </tr>
-  </table>
+    <table class="w-full custom-table">
+        <tr>
+            <th>Date</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>22 Nov (Wednesday)</td>
+            <td>Discrete Math</td>
+        </tr>
+        <tr>
+            <td>23 Nov (Thursday)</td>
+            <td>Data Structures and Algorithms</td>
+        </tr>
+        <tr>
+            <td>24 Nov (Friday)</td>
+            <td>DBMS</td>
+        </tr>
+        <tr>
+            <td>25 Nov (Saturday)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>26 Nov (Sunday)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>27 Nov (Monday)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>28 Nov (Tuesday)</td>
+            <td>MATH</td>
+        </tr>
+    </table>
 </div>
 
 </body>
